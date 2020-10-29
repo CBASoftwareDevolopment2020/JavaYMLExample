@@ -10,7 +10,7 @@ public class TestTest {
     }
 
     @Test
-    public void quickFailingTest(){
+    public void TestquickFailing(){
         assertEquals(1,2);
     }
 }
