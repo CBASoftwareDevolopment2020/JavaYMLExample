@@ -8,4 +8,9 @@ public class TestTest {
         // assert statements
         assertEquals(0, 0);
     }
+
+    @Test
+    public void quickFailingTest(){
+        assertEquals(1,2);
+    }
 }
