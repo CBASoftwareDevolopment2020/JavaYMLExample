@@ -1,3 +1,8 @@
 language: java
 script:
   - mvn test
+
+after_failure:
+  - echo "Test failed"
+after_succes:
+  - echo "Godt gået drenge"
